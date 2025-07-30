@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Highlight active button */
+.buttonClicked {
+  background-color: #39b54a;
+  color: white;
+  border-radius: 4px;
+}
+
+/* Main contact container */
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  background-color: #f6f6f6;
+}
+/* Logo Image */
+.logo-img {
+  width: 180px !important;
+  height: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+/* Title */
+.contact h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  color: #00573f;
+  margin-bottom: 1.5rem;
+}
+
+/* Form */
+.form {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1rem;
+}
+
+/* Form Groups */
+.form div {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #00573f;
+}
+
+input,
+textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #39b54a;
+  outline: none;
+}
+
+/* Submit Button */
+button {
+  background-color: #fada00;
+  color: #00573f;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #ffd900;
+}
+
+/* Side image */
+.contactSideImg {
+  flex: 1 1 300px;
+  max-width: 400px;
+  height: auto;
+  align-self: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contactSideImg {
+    max-width: 80%;
+  }
+}

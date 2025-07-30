@@ -1,0 +1,99 @@
+/* Font Setup */
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Metrophobic&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary-green: #009639;
+  --secondary-yellow: #fce000;
+  --background: #f7f7f7;
+  --card-bg: #ffffff;
+  --text-dark: #222;
+  --border-radius: 12px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Global Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Menu Container */
+.menu-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Logo Image */
+.logo-img {
+  width: 180px !important;
+  height: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+/* Heading */
+.menu-heading {
+  font-size: 2.5rem;
+  color: var(--primary-green);
+  margin-bottom: 2rem;
+  font-family: "Caveat", cursive;
+}
+
+/* Grid Layout */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+
+/* Menu Card */
+.menu-item {
+  background-color: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Image */
+.menu-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  margin-bottom: 0.8rem;
+}
+
+/* Label */
+.menu-label {
+  font-size: 1.2rem;
+  color: var(--primary-green);
+  font-weight: bold;
+}
+
+/* Promo/Responsive Note (if needed) */
+@media (max-width: 600px) {
+  .menu-heading {
+    font-size: 1.8rem;
+  }
+
+  .menu-logo {
+    width: 120px;
+  }
+}

@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #05e933 !important;
+  color: #333;
+}
+
+#content {
+  position: relative;
+}
+
+/* Main Home Container */
+.home {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+  background: #fcfffc;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.home h2 {
+  font-size: 2.5rem;
+  color: #2e8b57;
+  margin-bottom: 15px;
+}
+
+/* Description */
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Image Styling */
+.home img {
+  max-width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-left: 15rem;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+/* Promo Codes Section */
+.promo-section {
+  background-color: #fef9e7;
+  border: 1px solid #ffeeba;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.promo-section h3 {
+  color: #d35400;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.promo-code {
+  background-color: #fff3cd;
+  border: 1px solid #ffeeba;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #856404;
+  transition: background-color 0.3s ease;
+}
+
+.promo-code:hover {
+  background-color: #ffe8a1;
+  cursor: pointer;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  padding: 20px 10px;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+  background-color: #fada00;
+  border-bottom: #fada00 1px solid;
+  border-top: #fada00 1px solid;
+}
+
+/* Highlight the clicked nav button */
+.buttonClicked {
+  background-color: #2e8b57;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 14px;
+  border: none;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .home {
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .promo-section h3 {
+    font-size: 1.3rem;
+  }
+
+  .promo-code {
+    font-size: 0.95rem;
+    padding: 10px;
+  }
+
+  .logo-img {
+    width: 150px; /* Match desktop size or set your preferred size */
+  }
+
+  .home img {
+    max-width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-left: 4rem;
+  }
+}
+
+/* Phones */
+@media (max-width: 480px) {
+  .home h2 {
+    font-size: 1.7rem;
+  }
+
+  .home p {
+    font-size: 0.95rem;
+  }
+
+  .promo-section {
+    padding: 15px;
+  }
+
+  .promo-section h3 {
+    font-size: 1.1rem;
+  }
+
+  .promo-code {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  .logo-img {
+    width: 120px; /* Set your preferred size for phones */
+  }
+
+  footer {
+    font-size: 0.8rem;
+    padding: 15px 5px;
+  }
+}
+
+/* Logo Image */
+.logo-img {
+  width: 180px !important;
+  height: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+nav {
+  background-color: #ffffff;
+  border-bottom: #ffffff 1px solid;
+}
