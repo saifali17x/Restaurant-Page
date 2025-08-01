@@ -110,3 +110,11 @@ button:hover {
     max-width: 80%;
   }
 }
+
+@media (max-width: 480px) {
+  .form {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 350px;
+  }
+}
