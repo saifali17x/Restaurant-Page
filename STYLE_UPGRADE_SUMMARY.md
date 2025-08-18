@@ -2,7 +2,7 @@
 
 ## Overview
 
-Your restaurant page project has been completely transformed from a basic layout to a modern, professional, and highly interactive web application. This upgrade includes comprehensive improvements to design, functionality, user experience, and visual appeal.
+The restaurant page project has been completely transformed from a basic layout to a modern, professional, and highly interactive web application. This upgrade includes comprehensive improvements to design, functionality, user experience, and visual appeal.
 
 ## 🚀 Major Improvements Made
 
